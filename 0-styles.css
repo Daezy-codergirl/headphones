@@ -1,0 +1,150 @@
+* {
+ font-family: sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+/* HEADER */
+
+.header {
+ background-image: url(/images/headphones_hero_1.jpg);
+ height: 100vh;
+ width: 100%;
+ 
+}
+
+.container {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 100px;
+ align-items: center;
+ 
+}
+.logo img {
+ width: 161px;
+ height: 32px;
+}
+
+.header-links ul {
+ display: flex;
+ width: 255px;
+ justify-content: space-between;
+ 
+}
+
+.header-links ul li {
+ list-style-type: none;
+
+}
+
+.header-links ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 15px;
+ transition: 0.3s;
+}
+.header-links ul li a:hover {
+  color: #FF6565;
+ 
+
+}
+.menu {
+ display: none;
+}
+
+/* CALL TO ACTION */
+
+.hero {
+ width: 600px;
+ height: 500px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ gap: 40px;
+ text-align: center;
+ color: white;
+}
+
+.hero-text p, .text {
+  font-size: 12px;
+  line-height: 20px;
+
+}
+
+.call-to-action a {
+ text-decoration: none;
+ font-size: 12px;
+ background-color: #FF6565;
+ padding: 10px 20px;
+ border-radius: 20px;
+ color: white;
+ transition: 0.3s;
+ 
+}
+.call-to-action a:hover{
+ box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+ opacity: 0.9;
+}
+
+/* MEDIA QUERY */
+
+ @media (max-width: 480px) {
+  .header-links ul {
+ display: none;
+}
+.menu {
+ display: block;
+}
+.header {
+ background-image: url(/images/headphones_hero_1.jpg);
+ height: 100vh;
+ width: 100%;
+ background-position: center;
+ background-size: cover;
+
+}
+
+.container {
+ display: flex;
+ gap: 20px;
+ padding: 20px 10px;
+}
+.logo img {
+ width: 161px;
+ height: 32px;
+}
+.hero {
+ width: 100%;
+ height: 500px;
+}
+.hero-text p, .text {
+  font-size: 13px;
+  line-height: 25px;
+  
+
+}
+.hero-text h2 {
+ font-size: 25px;
+}
+
+.call-to-action a {
+ text-decoration: none;
+ font-size: 13px;
+ background-color: #FF6565;
+ padding: 15px 10px;
+ border-radius: 20px;
+ color: white;
+ transition: 0.3s;
+ font-weight: 600;
+ 
+}
+
+
+}
+
+
+
+
