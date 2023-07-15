@@ -1,0 +1,462 @@
+* {
+ font-family: sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+/* HEADER */
+
+.header {
+ background-image: url(/images/headphones_hero_1.jpg);
+ height: 100vh;
+ width: 100%;
+ 
+}
+
+.container {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 100px;
+ align-items: center;
+ 
+}
+.logo img {
+ width: 161px;
+ height: 32px;
+}
+
+.header-links ul {
+ display: flex;
+ width: 255px;
+ justify-content: space-between;
+ 
+}
+
+.header-links ul li {
+ list-style-type: none;
+
+}
+
+.header-links ul li a{
+ text-decoration: none;
+ color: white;
+ font-size: 15px;
+ transition: 0.3s;
+}
+.header-links ul li a:hover {
+  color: #FF6565;
+ 
+
+}
+.menu {
+ display: none;
+}
+
+/* CALL TO ACTION */
+
+.hero {
+ width: 600px;
+ height: 500px;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ gap: 50px;
+ text-align: center;
+ color: white;
+}
+
+.hero-text p, .text {
+  font-size: 12px;
+  line-height: 20px;
+
+}
+
+.call-to-action a {
+ text-decoration: none;
+ font-size: 12px;
+ background-color: #FF6565;
+ padding: 10px 20px;
+ border-radius: 20px;
+ color: white;
+ transition: 0.3s;
+ 
+}
+.call-to-action a:hover{
+ box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+ opacity: 0.9;
+}
+
+/* MEDIA QUERY */
+
+ @media (max-width: 480px) {
+  .header-links ul {
+ display: none;
+}
+.menu {
+ display: block;
+}
+.header {
+ background-image: url(/images/headphones_hero_1.jpg);
+ height: 90vh;
+ width: 100%;
+ background-position: center;
+ background-size: cover;
+
+}
+
+.container {
+ display: flex;
+ gap: 20px;
+ padding: 20px 10px;
+}
+.logo img {
+ width: 161px;
+ height: 32px;
+}
+.hero {
+ width: 100%;
+ height: 500px;
+}
+.hero-text p, .text {
+  font-size: 13px;
+  line-height: 25px;
+  
+
+}
+.hero-text h2 {
+ font-size: 25px;
+}
+
+.call-to-action a {
+ text-decoration: none;
+ font-size: 13px;
+ background-color: #FF6565;
+ padding: 15px 10px;
+ border-radius: 20px;
+ color: white;
+ transition: 0.3s;
+ font-weight: 600;
+ 
+}
+}
+
+/* MAIN */
+
+/* What-we-do */
+.section-what-we-do {
+ padding: 50px 100px;
+ margin: auto;
+ text-align: center;
+}
+.services {
+ width: 700px;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ margin-bottom: 50px;
+}
+.services h2 {
+ color: rgb(7, 22, 41);
+ font-weight: 600;
+}
+.services p {
+ font-size: 12px;
+ line-height: 20px;
+ color: rgb(7, 22, 41);
+}
+
+/* sound-frequency */
+.sound-frequency {
+ width: 80%;
+ margin-top: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+}
+.box img {
+ height: 60px;
+ width: 65px;
+ margin-bottom: 20px;
+}
+.box h5 {
+  color: rgb(7, 22, 41);
+  line-height: 20px;
+  
+}
+.box h6 {
+ color: rgb(65, 68, 72);
+ line-height: 20px;
+}
+.box1 h6 {
+ color: rgb(65, 68, 72);
+ line-height: 20px;
+
+}
+.box2 h6 {
+ color: rgb(65, 68, 72);
+ line-height: 20px;
+}
+.box3 h6 {
+ color: rgb(65, 68, 72);
+ line-height: 20px;
+}
+.box1 h5 {
+  color: rgb(7, 22, 41);
+  line-height: 20px;
+}
+.box2 h5 {
+  color: rgb(7, 22, 41);
+  line-height: 20px;
+
+}
+.box3 h5 {
+  color: rgb(7, 22, 41);
+  line-height: 20px;
+}
+.sound-frequency .box1 img {
+ height: 60px;
+ width: 65px;
+ margin-bottom: 20px;
+}
+.sound-frequency .box2 img {
+ height: 51px;
+ width: 50px;
+ margin-bottom: 20px;
+}
+.sound-frequency .box3 img {
+ height: 51px;
+ width: 50px;
+ margin-bottom: 20px;
+}
+/* MEDIA QUERY */
+@media (max-width: 480px) {
+ .services {
+ width: 100%;
+ margin: auto;
+}
+
+.section-what-we-do {
+ padding: 50px 100px;
+ margin: auto;
+ text-align: center;
+}
+.services {
+ width: 100%;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ margin-bottom: 50px;
+}
+.services h2 {
+ color: rgb(7, 22, 41);
+ font-weight: 600;
+ font-size: 15px;
+}
+.services p {
+ font-size: 12px;
+ line-height: 20px;
+ color: rgb(7, 22, 41);
+}
+.sound-frequency {
+ width: 80%;
+ margin-top: 100px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ gap: 40px;
+}
+}
+
+/* RESULT */
+.result {
+ background-image: url(images/headphones_hero_2.jpg);
+ height: 80vh;
+ width: 100%;
+ padding: 50px 100px;
+ margin: auto;
+ text-align: center;
+ color: white;
+}
+.result-1 {
+ width: 700px;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+.result-1 p {
+ font-size: 12px;
+ line-height: 20px;
+ 
+}
+.dot {
+ width: 90%;
+ margin-top: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ gap: 40px;
+}
+.dot img {
+ width: 190px;
+ height: 190px;
+}
+
+/* MEDIA QUERY */
+@media (max-width:480px) {
+ .result {
+ background-image: url(images/headphones_hero_2.jpg);
+ background-position: center;
+ background-size: cover;
+ height: 200vh;
+ width: 100%;
+ padding: 50px 100px;
+ margin: auto;
+ text-align: center;
+ color: white;
+}
+.result-1 {
+ width: 100%;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+.result-1 h2 {
+ font-size: 20px;
+ line-height: 30px;
+}
+.result-1 p {
+ font-size: 12px;
+ line-height: 25px;
+ 
+}
+.dot {
+ width: 90%;
+ margin-top: 100px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ gap: 40px;
+}
+.dot img {
+ width: 190px;
+ height: 190px;
+}
+}
+
+/* CONTACT */
+.contact {
+ padding: 50px 100px;
+ margin: auto;
+ text-align: center;
+ 
+}
+form {
+ display: column;
+}
+form input {
+ padding: 10px;
+ width: 50%;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ outline: none;
+ border: 1px solid gray;
+ 
+}
+@media (max-width: 480px) {
+ form input {
+ padding: 10px;
+ width: 100%;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ outline: none;
+ border: 1px solid gray;
+}
+.contact {
+ padding: 50px;
+ margin: auto;
+ text-align: center;
+ 
+}
+}
+
+/* FOOTER */
+.footer {
+ width: 100%;
+ height: 30vh;
+ background-color: rgb(7, 22, 41);
+ padding: 100px;
+ 
+}
+.footer-container {
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.footer-links {
+ display: flex;
+ gap: 10px;
+ 
+ height: 30px;
+}
+.footer-links img {
+ width: 30px;
+}
+.footer h6 {
+ color: white;
+ text-align: center;
+ margin-top: 50px;
+}
+
+@media (max-width: 480) {
+ .footer {
+ width: 100%;
+ height: 30vh;
+ background-color: rgb(7, 22, 41);
+
+}
+.footer h6 {
+ color: white;
+}
+.footer-container {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ 
+}
+.footer-links {
+ display: flex;
+ gap: 10px;
+ width: 130px;
+ height: 30px;
+}
+.footer-links img {
+ width: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
